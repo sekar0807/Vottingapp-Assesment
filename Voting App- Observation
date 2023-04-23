@@ -1,0 +1,5 @@
+Created the Voting App by using the given files and steps
+After voting done, and observing the Results did the deletion of pod one by one.
+First I deleted the Vote Pod, what I observed in the Backend is the old vote pod is Deleted and the New Vote Pod is created in the Backend.In the Frent end nothing changing.
+Second I deleted the Worker Pod, I observed in the Backend is the old worker pod is Deleted and the New Worker Pod is created. In the Front end Nothing Changes happen.
+Third I deleted the DB Pod, I observed that in the Backend is the old DB pod is Terminating in the mean time new DB Pod is creating.Also in the Backend I observing that the result and worker pod Restart happening. In the frontend I observed that the old voting data are deleted, only I am seeing the Latest Polling votes.
